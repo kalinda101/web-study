@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>云大科技</title>
+    <script src="https://cdn.bootcss.com/holder/2.9.4/holder.min.js"></script>
+    <style>
+        * {
+            list-style: none;
+            margin: 0;
+            padding: 0
+        }
+
+
+        header {
+            overflow: hidden;
+            margin-bottom: 11px;
+        }
+
+        ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+
+        header img {
+            margin-top: 15px;
+            display: inline-block;
+            margin-left: 249px;
+        }
+
+
+
+        header .listinfo {
+            margin-top: 22px;
+            /* display: inline-block; */
+            float: right;
+            margin-right: 246px;
+        }
+
+        .bigimg {
+            width: 100%;
+        }
+
+        .li1 {
+            border: 1px solid #e7e6e6;
+            border-radius: 5px;
+            height: 400px;
+            width: 340px;
+        }
+
+        #block-area {
+            height: 452px;
+            margin-top: 30px;
+            /* background-color: burlywood; */
+        }
+
+        #block-area ul {
+            float: left;
+            /* margin: 0 auto; */
+            /* width: 1500px; */
+        }
+
+        #block-area h3 {
+            font-weight: normal;
+            font-size: 24px;
+            text-align: center;
+            margin-top: 45px;
+            color: #3c3c3c;
+        }
+
+        #block-area p {
+            font-size: 14px;
+            text-align: center;
+            margin-top: 10px;
+            color: #3c3c3c;
+        }
+
+        #block-area .infomation {
+            text-align: justify;
+            width: 274px;
+
+            /* vertical-align: middle; */
+            /* display: inline-block; */
+            margin: 0 auto;
+            margin-bottom: 49px;
+            color: #767676;
+        }
+
+        #block-area #test {
+            margin-bottom: 39px;
+
+        }
+
+        #block-area a {
+            color: #37ae8d;
+            border: 1px solid #37ae8d;
+            border-radius: 5px;
+            padding: 8px;
+            font-size: 16px;
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+            width: 136px;
+            /* height: 38px; */
+        }
+
+        .function {
+            background-color: #f8f9f9;
+            padding-bottom: 82px;
+        }
+
+        .function h2 {
+            font-size: 30px;
+            font-weight: normal;
+            text-align: center;
+            padding-top: 28px;
+            color: #3c3c3c;
+        }
+
+        .function .sub {
+            font-size: 14px;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            color: #5e5e5e;
+        }
+
+        .block-container ul li {
+            background-color: #ffffff;
+            width: 456px;
+            height: 289px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+
+        .list {
+            /* width: 456px; */
+
+        }
+
+        .content {
+            font-size: 14px;
+            text-align: center;
+            color: #3c3c3c;
+        }
+
+        .title {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 18px;
+            margin-top: 24px;
+            color: #3c3c3c;
+        }
+
+        .block-container {
+            margin: 0 auto;
+            width: 1438px;
+        }
+
+        .block-container ul .list img {
+            width: 102px;
+            height: 102px;
+            margin-left: 176px;
+            margin-top: 40px;
+        }
+
+        .example-area {
+            height: 958px;
+            /* background-color: red; */
+        }
+
+        .example-area h2 {
+            font-size: 30px;
+            font-weight: normal;
+            text-align: center;
+            padding-top: 38px;
+        }
+
+        .example-area .sub {
+            font-size: 14px;
+            text-align: center;
+            margin-top: 14px;
+            margin-bottom: 54px;
+        }
+
+        .example-area .img-box img {
+            margin-right: 20px;
+            margin-bottom: 44px;
+        }
+
+        .img-box {
+            margin: 0 auto;
+            width: 1438px;
+        }
+
+        .example-area a {
+            color: #37ae8d;
+            border: 1px solid #37ae8d;
+            border-radius: 5px;
+            font-size: 16px;
+            text-align: center;
+            height: 38px;
+            display: block;
+            width: 150px;
+            line-height: 38px;
+            margin: 0 auto;
+        }
+
+        footer {
+            height: 340px;
+            background-color: #273037;
+        }
+
+        .footer-content {
+            margin: 0 auto;
+            width: 1382px;
+            padding-top: 40px;
+        }
+
+        .footer-content ul li {
+            display: block;
+            margin: 0;
+            /* width: 100px;
+            height: 100px; */
+        }
+
+        .footer-content .sup {
+            /* margin-right: 300px; */
+            float: left;
+            margin-right: 127px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        footer .footer-content .first {
+            text-align: left;
+        }
+
+        .white-color {
+            color: white;
+            font-size: 18px;
+        }
+
+        .white-color img {
+            margin-right: 8px;
+            margin-left: -34px;
+        }
+
+        .color {
+            color: #197c63;
+            font-size: 24px;
+        }
+
+        .footer-content .sup .sub-li {
+            color: #8f8f8f;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+
+        .sup .white-color p {
+            margin-top: -35px;
+        }
+
+        .footer-content .first .color {
+            margin-bottom: 10px;
+        }
+
+        .footer-content .sup .title-li {
+            margin-bottom: 20px;
+        }
+
+        footer .p-info {
+            clear: both;
+            color: #676767;
+            font-style: 14px;
+            text-align: center;
+            margin-top: 16px;
+        }
+
+        footer hr {
+            background-color: #363e45;
+            clear: both;
+            height: 1px;
+            border: 0;
+            width: 1300px;
+            margin: 0 auto;
+            /* color: tomato; */
+        }
+
+        #center-box {
+            margin: 0 auto;
+            width: 1444px;
+            height: 412px;
+        }
+
+        ul .last {
+            margin-right: 0;
+        }
+
+        header .listinfo li {
+            font-size: 14px;
+            color: #3c3c3c;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="D:\虎哥资料\logo.png" alt="云大科技">
+        <ul class="listinfo">
+            <li><a>首页</a></li>
+            <li><a>产品</a></li>
+            <li><a>关于我们</a></li>
+            <li><a>联系方式</a></li>
+        </ul>
+    </header>
+    <!-- 中间那张大图 -->
+    <img src="D:\虎哥资料\yunda.jpg" alt="公司宣传图" class="bigimg">
+
+    <!-- 4个方块区 -->
+    <div id="block-area">
+        <div id="center-box">
+            <ul>
+                <li class="li1">
+                    <h3>网站建设</h3>
+                    <p id="test">个性化网站解决方案</p>
+                    <p class="infomation">文字描述内容区域，段落文本显示文字描述内容区域，
+                        段落文本显示文字描述内容区域段落文本显示</p>
+                    <a javascript:;>点击查看 ></a>
+                </li>
+
+                <li class="li1">
+                    <h3>小程序应用定制</h3>
+                    <p id="test">让营销变得更简单</p>
+                    <p class="infomation">文字描述内容区域，段落文本显示文字描述内容区域，
+                        段落文本显示文字描述内容区域段落文本显示</p>
+                    <a javascript:;>点击查看 ></a>
+                </li>
+
+                <li class="li1">
+                    <h3>微信公众号平台搭建</h3>
+                    <p id="test">互动营销从微信开始</p>
+                    <p class="infomation">文字描述内容区域，段落文本显示文字描述内容区域，
+                        段落文本显示文字描述内容区域段落文本显示</p>
+                    <a javascript:;>点击查看 ></a>
+                </li>
+
+                <li class="li1 last">
+                    <h3>微商城、智慧应用</h3>
+                    <p id="test">有效的画册传播方式</p>
+                    <p class="infomation">文字描述内容区域，段落文本显示文字描述内容区域，
+                        段落文本显示文字描述内容区域段落文本显示</p>
+                    <a javascript:;>点击查看 ></a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- 软件功能区 -->
+    <div class="function">
+        <h2>某某产品软件功能</h2>
+        <p class="sub">让营销变得更简单</p>
+
+        <!-- 6个方块区 -->
+        <div class="block-container">
+            <ul>
+                <li class="list">
+                    <img src="./function1.png" alt="">
+                    <p class="title">信息展示</p>
+                    <p class="content">展示企业基础资料信息、企业文化、资质证照等</p>
+                </li>
+                <li class="list">
+                    <img src="D:\虎哥资料\images\function-2_03.png" alt="">
+                    <p class="title">浏览画册</p>
+                    <p class="content">仿真模拟纸质画册翻页效果，直接在ipad上阅读，绿色环保</p>
+                </li>
+                <li class="list">
+                    <img src="./function3.png" alt="">
+                    <p class="title">智能定制</p>
+                    <p class="content">什么颜色好看使用什么材质？DIY一下就一清二楚</p>
+                </li>
+                <li class="list">
+                    <img src="D:\虎哥资料\images\function4_10.png" alt="">
+                    <p class="title">信息展示</p>
+                    <p class="content">展示企业基础资料信息、企业文化、资质证照等</p>
+                </li>
+                <li class="list">
+                    <img src="D:\虎哥资料\images\function5_09.png" alt="">
+                    <p class="title">浏览画册</p>
+                    <p class="content">仿真模拟纸质画册翻页效果，直接在ipad上阅读，绿色环保</p>
+                </li>
+                <li class="list">
+                    <img src="./function6.png" alt="">
+                    <p class="title">智能定制</p>
+                    <p class="content">什么颜色好看使用什么材质？DIY一下就一清二楚</p>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <!-- 网站建设案例区 -->
+    <div class="example-area">
+        <h2>网站建设案例</h2>
+        <p class="sub">化妆品 / 数码产品 / 服装商城 / 3c配件 / 饰品 / 化工 / 机械 / 时尚</p>
+
+        <!-- 6张图片区 -->
+        <div class="img-box">
+            <img src="holder.js/456x290?text=我是占位符" alt="">
+            <img src="holder.js/456x290" alt="">
+            <img src="holder.js/456x290" alt="">
+            <img src="holder.js/456x290?text=我是占位符" alt="">
+            <img src="holder.js/456x290" alt="">
+            <img src="holder.js/456x290" alt="">
+        </div>
+        <a javascript:;>查看更多 ></a>
+    </div>
+
+    <!-- 网页底部 -->
+    <footer>
+        <div class="footer-content">
+
+            <ul class="sup first">
+                <li class="white-color"><img src="D:\虎哥资料\images\images\客服_10.png" alt="">
+                    <p>客服热线</p>
+                </li>
+                <li class="color">888 8888 8888</li>
+                <li><img src="D:\虎哥资料\二维码_11.png" alt="二维码"></li>
+            </ul>
+            <ul class="sup">
+                <li class="white-color title-li">网站建设</li>
+                <li class="sub-li">企业官网</li>
+                <li class="sub-li">电商网站</li>
+            </ul>
+            <ul class="sup">
+                <li class="white-color title-li">微信公众号</li>
+                <li class="sub-li">平台搭建</li>
+                <li class="sub-li">平台运营</li>
+            </ul>
+            <ul class="sup">
+                <li class="white-color title-li">小程序</li>
+                <li class="sub-li">开发运营</li>
+            </ul>
+            <ul class="sup">
+                <li class="white-color title-li">微商城与智慧应用</li>
+                <li class="sub-li">微商城</li>
+                <li class="sub-li">智慧餐厅</li>
+            </ul>
+            <ul class="sup">
+                <li class="white-color title-li">场景处理</li>
+                <li class="sub-li">图片素材处理</li>
+                <li class="sub-li">动图制作</li>
+                <li class="sub-li">短视频处理</li>
+                <li class="sub-li">企业素材短片</li>
+                <li class="sub-li">三维全景</li>
+                <li class="sub-li">H5页面制作</li>
+            </ul>
+
+
+        </div>
+
+        <hr>
+        <p class="p-info">Copyright © 2021 云大科技,All Rights Reserved. 粤ICP备1xxxxxx号</p>
+    </footer>
+
+</body>
+
+</html>
